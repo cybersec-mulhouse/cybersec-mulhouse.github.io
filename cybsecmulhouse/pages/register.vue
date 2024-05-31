@@ -19,7 +19,7 @@ const state = reactive({
 
 async function onSubmit (event: FormSubmitEvent<Schema>) {
   // Do something with event.data
-    
+
   console.log("Blaa") 
   console.log(event.data)
 }
@@ -58,7 +58,7 @@ async function onSubmit (event: FormSubmitEvent<Schema>) {
                 <UInput v-model="state.uni" />
             </UFormGroup>
            
-            <UFormGroup label="Challenge" name="how much is 10!>>7 in hexadecimal representation ?" :ui="{ label: { base: 'text-white' } }">
+            <UFormGroup label="(value) => value == null || value === 'James'," name="challenge" :ui="{ label: { base: 'text-white' } }">
                 <UInput v-model="state.challenge" />
             </UFormGroup>
 
