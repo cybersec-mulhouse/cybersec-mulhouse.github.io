@@ -58,7 +58,7 @@ async function onSubmit (event: FormSubmitEvent<Schema>) {
                 <UInput v-model="state.uni" />
             </UFormGroup>
            
-            <UFormGroup label="(value) => value == null || value === 'James'," name="challenge" :ui="{ label: { base: 'text-white' } }">
+            <UFormGroup label="How much is 10!>>7 in hexadecimal representation ?" name="challenge" :ui="{ label: { base: 'text-white' } }">
                 <UInput v-model="state.challenge" />
             </UFormGroup>
 
