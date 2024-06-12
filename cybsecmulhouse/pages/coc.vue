@@ -15,7 +15,7 @@ console.log("locale",locale)
     <template #body>
     </template>
     <template #footer>
-      <div class="col-span-3" v-if="this.$i18n.locale === 'en'">
+      <div class="col-span-3" v-if="locale === 'en'">
         <CocEn />
       </div>
       <div class="col-span-3" v-else>
