@@ -10,7 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@intlify/vue-i18n-loader": "^4.2.0",
     "@nuxt/ui": "latest",
+    "@nuxtjs/i18n": "latest",
     "@nuxtjs/recaptcha": "^1.1.2",
     "nuxt": "^3.11.2",
     "valibot": "^0.31.0-rc.7",

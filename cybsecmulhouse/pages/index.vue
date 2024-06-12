@@ -1,16 +1,12 @@
 <template>
   <PageCard>
     <template #title>
-      CTF Mulhouse
     </template>
     <template #subtitle>
-      Come and capture the flag in a relaxed event !
+      {{ $t('subtitle_m') }}
     </template>
     <template #body>
-      <NuxtLink to="/register">Register here<span aria-hidden="true">&rarr;</span></NuxtLink>
-      <a href="#">Contribute <span aria-hidden="true">&rarr;</span></a>
-      <a href="#">Our values <span aria-hidden="true">&rarr;</span></a>
-      <a href="#">Sponsors <span aria-hidden="true">&rarr;</span></a>
+     
     </template>
     <template #footer>
       <div class="flex flex-col-reverse">
