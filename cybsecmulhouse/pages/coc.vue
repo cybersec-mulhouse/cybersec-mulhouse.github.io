@@ -1,16 +1,8 @@
 <script setup lang="ts">
-import { object, string, type InferType } from 'yup'
-import type { FormSubmitEvent } from '#ui/types'
+const { locale, locales } = useI18n()
+console.log("locale",locale)
 
 </script>
-<i18n lang="yaml">
-  en:
-    coc_m: |
-     
-
-  fr:
-    hello: 'こんにちは、世界!'
-  </i18n>
 
 <template>
   <PageCard>
