@@ -12,7 +12,12 @@ export default defineI18nConfig(() => ({
         challenge_m:'How much is 10!>>7 in hexadecimal representation ?',
         contribute_m:'Contribute',
         values_m:'Code Of Conduct',
-        sponsors_m:'Sponsors'
+        sponsors_m:'Sponsors',
+        day_m:'days',
+        hour_m:'hours',
+        min_m:'minutes',
+        sec_m:'seconds',
+
       },
       fr: {
         welcome: 'Bienvenue',
@@ -24,7 +29,11 @@ export default defineI18nConfig(() => ({
         challenge_m:'Combien vaut 10!>>7 en écriture hexadécimale ?',
         contribute_m:'Contribuer',
         values_m:'Code de Conduite',
-        sponsors_m:'Sponsors'
+        sponsors_m:'Sponsors',
+        day_m:'jours',
+        hour_m:'heures',
+        min_m:'minutes',
+        sec_m:'secondes',
 
       }
     }

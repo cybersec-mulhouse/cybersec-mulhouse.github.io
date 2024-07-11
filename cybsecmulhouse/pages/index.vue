@@ -3,7 +3,7 @@
     <template #title>
     </template>
     <template #subtitle>
-      {{ $t('subtitle_m') }}
+      <!-- {{ $t('subtitle_m') }} -->
     </template>
     <template #body>
      

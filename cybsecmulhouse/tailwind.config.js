@@ -9,6 +9,9 @@ export default {
     "./error.vue",
   ],
   theme: {
+    fontFamily: {
+      subwt: ["subwt","sans-serif"],
+    },
     extend: {
       // colors: {
       //   green: {
