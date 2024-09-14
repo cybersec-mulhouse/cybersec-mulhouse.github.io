@@ -1,6 +1,6 @@
 <template>
   <div class="text-white col-span-3 ">
-       <p>Nous nous engageons à fournir un environnement convivial, sûr et accueillant pour tous les participants, organisateurs et autres membres de la communauté (collectivement appelés Utilisateurs) du concours Mulhouse Capture The Flag ("CTF"), ainsi que pour sa présence sur le canal Discord correspondant, exempt de discrimination pour quelque raison que ce soit, y compris en raison du sexe, de l'identité de genre, de l'orientation sexuelle, du handicap, de la race, de l'origine ethnique, de l'âge et de la religion. Ce Code de conduite décrit nos attentes en matière de comportement des Utilisateurs ainsi que les étapes de signalement et les conséquences des comportements inacceptables.</p>
+       <p>Nous nous engageons à fournir un environnement convivial, sûr et accueillant pour tous les participants, organisateurs et autres membres de la communauté (collectivement appelés Utilisateurs) du concours RhineTech CTF Mulhouse ("CTF"), ainsi que pour sa présence sur le canal Discord correspondant, exempt de discrimination pour quelque raison que ce soit, y compris en raison du sexe, de l'identité de genre, de l'orientation sexuelle, du handicap, de la race, de l'origine ethnique, de l'âge et de la religion. Ce Code de conduite décrit nos attentes en matière de comportement des Utilisateurs ainsi que les étapes de signalement et les conséquences des comportements inacceptables.</p>
        <br/>
        <u> Comportement</u>
        <p>
@@ -9,7 +9,7 @@
          <li>Être prévenants, respectueux et collaboratifs.</li>
          <li>S'abstenir de tout comportement ou discours dégradant, discriminatoire ou harcelant.</li>
          <li>Faire attention à votre environnement et à vos collègues Utilisateurs - vos collègues Utilisateurs peuvent avoir un niveau de confort différent en ce qui concerne le langage et l'espace personnel.</li>
-         <li>Alerter les organisateurs de Mulhouse CTF (voir le guide de signalement ci-dessous) si vous remarquez un comportement inacceptable.</li>
+         <li>Alerter les organisateurs de RhineTech CTF Mulhouse (voir le guide de signalement ci-dessous) si vous remarquez un comportement inacceptable.</li>
          <li>Ce code n'est ni exhaustif ni complet. Il vise à distiller notre compréhension commune d'un environnement partagé et collaboratif, et de nos objectifs. Nous attendons qu'il soit respecté dans l'esprit autant que dans la lettre.</li>
        </ul>
        </p>
@@ -44,9 +44,9 @@
          <li>Toute information supplémentaire qui pourrait être utile.</li>
          </ul>
          <br/>
-         Après avoir déposé un rapport, un organisateur de Mulhouse CTF vous contactera personnellement. Les organisateurs de Mulhouse CTF examineront alors l'incident, suivront avec des questions supplémentaires, et prendront une décision quant à la réponse à apporter.
+         Après avoir déposé un rapport, un organisateur de RhineTech CTF Mulhouse vous contactera personnellement. Les organisateurs de Mulhouse CTF examineront alors l'incident, suivront avec des questions supplémentaires, et prendront une décision quant à la réponse à apporter.
          <br/>
-         Tous les rapports resteront aussi confidentiels que possible. Les organisateurs de Mulhouse CTF détermineront et mettront en œuvre le cours d'action approprié, et seront disponibles pour aider les Utilisateurs victimes de comportements inacceptables à se sentir en sécurité pendant toute la durée du concours.
+         Tous les rapports resteront aussi confidentiels que possible. Les organisateurs de RhineTech CTF Mulhouse détermineront et mettront en œuvre le cours d'action approprié, et seront disponibles pour aider les Utilisateurs victimes de comportements inacceptables à se sentir en sécurité pendant toute la durée du concours.
        </p>
        </div>
 

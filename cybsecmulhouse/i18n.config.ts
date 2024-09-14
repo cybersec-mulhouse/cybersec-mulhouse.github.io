@@ -4,7 +4,7 @@ export default defineI18nConfig(() => ({
     messages: {
       en: {
         welcome: 'Welcome',
-        subtitle_m: 'Come and capture the flag in a relaxed event !',
+        subtitle_m: '',//'Come and capture the flag in a relaxed event !',
         register_m: 'Register',
         name_m:'Name',
         forename_m:'Forename',
@@ -21,7 +21,7 @@ export default defineI18nConfig(() => ({
       },
       fr: {
         welcome: 'Bienvenue',
-        subtitle_m: 'Un capture the flag dans une ambiance relaxé !',
+        subtitle_m: '',//'Un capture the flag dans une ambiance détendue !',
         register_m: 'S\'enregistrer',
         name_m:'Nom',
         forename_m:'Prénom',

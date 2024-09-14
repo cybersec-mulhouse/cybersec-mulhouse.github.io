@@ -2,7 +2,7 @@
    <div class="text-white col-span-3 ">
         <p>We are committed to providing a friendly, safe and welcoming environment for all participants, organizers,
           and other members of the community (collectively known as Users) of the Mulhouse Capture The Flag ("CTF")
-          Competition, and its presence on the corresponding Discord Channel free from discrimination for any reason
+          Competition known as RhineTech CTF Mulhouse, and its presence on the corresponding Discord Channel free from discrimination for any reason
           including on the basis of gender, gender identity, sexual orientation, disability, race, ethnicity, age and
           religion. This Code of Conduct outlines our expectations for User behavior as well as the steps to reporting
           and consequences for unacceptable behavior.</p>
@@ -15,7 +15,7 @@
           <li>Refrain from demeaning, discriminatory or harassing behavior or speech.</li>
           <li>Be mindful of your surroundings and of your fellow Users – your fellow Users may have a different level of
             comfort with respect to language and personal space.</li>
-          <li>Alert Mulhouse CTF organizers (see Reporting Guide below) if you notice any unacceptable behavior.</li>
+          <li>Alert RhineTech CTF Mulhouse organizers (see Reporting Guide below) if you notice any unacceptable behavior.</li>
           <li>This code is not exhaustive or complete. It serves to distill our common understanding of a collaborative,
             shared environment, and goals. We expect it to be followed in spirit as much as in the letter.</li>
         </ul>
@@ -59,10 +59,10 @@
           <li>Any additional information that may be helpful.</li>
           </ul>
           <br/>
-          After filing a report, a Mulhouse CTF Organizer will contact you personally. The Mulhouse CTF Organizers will
+          After filing a report, a RhineTech CTF Mulhouse Organizer will contact you personally. The RhineTech CTF Mulhouse Organizers will
           then review the incident, follow up with any additional questions, and make a decision as to how to respond.
           <br/>
-          All reports will remain as confidential as possible. The Mulhouse CTF Organizers will determine and carry out
+          All reports will remain as confidential as possible. The RhineTech CTF Mulhouse Organizers will determine and carry out
           the appropriate course of action, and will be available to help Users experiencing unacceptable behavior feel
           safe for the duration of the Competition.
         </p>
