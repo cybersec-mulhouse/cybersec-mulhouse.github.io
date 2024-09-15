@@ -15,12 +15,14 @@ console.log("locale",locale)
     <template #body>
     </template>
     <template #footer>
-      <div class="col-span-3 text-2xl font-thin" v-if="locale === 'en'">
-        <CocEn />
+      <div class="w-3/4 mx-auto">
+      <div  v-if="locale === 'en'">
+        <CocEn class=" text-white text-2xl font-thin"/>
       </div>
-      <div class="col-span-3 text-2xl font-thin" v-else>
-        <CocFr />
+      <div  v-else>
+        <CocFr class=" text-white text-2xl font-thin" />
       </div>
+    </div>
     </template>
   </PageCard>
 </template>

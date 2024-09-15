@@ -1,5 +1,5 @@
 <template>
-   <div class="text-white col-span-3 ">
+   <div class="text-white ">
         <p>We are committed to providing a friendly, safe and welcoming environment for all participants, organizers,
           and other members of the community (collectively known as Users) of the Mulhouse Capture The Flag ("CTF")
           Competition known as RhineTech CTF Mulhouse, and its presence on the corresponding Discord Channel free from discrimination for any reason

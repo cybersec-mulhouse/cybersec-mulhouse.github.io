@@ -1,5 +1,5 @@
 <template>
-  <div class="text-white col-span-3 ">
+  <div class="text-white">
        <p>Nous nous engageons à fournir un environnement convivial, sûr et accueillant pour tous les participants, organisateurs et autres membres de la communauté (collectivement appelés Utilisateurs) du concours RhineTech CTF Mulhouse ("CTF"), ainsi que pour sa présence sur le canal Discord correspondant, exempt de discrimination pour quelque raison que ce soit, y compris en raison du sexe, de l'identité de genre, de l'orientation sexuelle, du handicap, de la race, de l'origine ethnique, de l'âge et de la religion. Ce Code de conduite décrit nos attentes en matière de comportement des Utilisateurs ainsi que les étapes de signalement et les conséquences des comportements inacceptables.</p>
        <br/>
        <u> Comportement</u>

@@ -34,9 +34,12 @@ import type { FormSubmitEvent } from '#ui/types'
       <template #body>
       </template>
       <template #footer>
-      <div class="flex flex-col-reverse col-span-4 text-white">
-        <a href="https://discord.com/invite/PvC8bWH3mv?event=1250008749712740403"> <img src="~/assets/img/qr-code.png" alt="" class="-z-10 h-full w-72 object-cover object-right md:object-center"/></a>
-        </div>
-        </template>
+      <div class="flex flex-col  text-white">
+        <!-- <a href="https://discord.com/invite/PvC8bWH3mv?event=1250008749712740403"> <img src="~/assets/img/qr-code.png" alt="" class="-z-10 h-full w-72 object-cover object-right md:object-center"/></a> -->
+        
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBtrPzvMBsZ1tMQzg9uvBXr2Y8GthZzNuRuKPkZLq20hmeKQ/viewform?embedded=true"  width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+        
+      </div>  
+      </template>
     </PageCard>
   </template>
