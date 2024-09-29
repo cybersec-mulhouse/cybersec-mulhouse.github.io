@@ -1,6 +1,6 @@
 <template>
 
-    <div class="bg-blackite ">
+    <div class="bg-black ">
       
     <div class="isolate shadow-md rounded-md overflow-hidden bg-black py-24 sm:py-32 mx-12 my-4">
     <img src="~/assets/img/ctf.png" alt="" class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"/>
