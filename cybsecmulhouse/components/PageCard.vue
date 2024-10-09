@@ -11,11 +11,19 @@
     </div>
     <div class="w-full text-8xl  text-center text-white">
           <img src="~/assets/img/Logo_clean.png" class="mx-auto object-contain object-center w-1/4 brightness-50 hover:brightness-200 hover:duration-150 "/>
+          <h3 class="text-slate-500 text-4xl mt-5"> {{ $t('start_m') }}</h3>
           <CountDown/>  
+          <div class="flex justify-center mt-10 flex-row gap-x-8  gap-y-6 text-xl font-normal  leading-7 text-slate-400">
+                    
+                    <NuxtLink class="hover:text-white" :to="localePath('/register')"> {{ $t('register_m') }}<span aria-hidden="true">&rarr;</span></NuxtLink>
+                    <a href="#">{{ $t('contribute_m') }} <span aria-hidden="true">&rarr;</span></a>
+                    <NuxtLink class="hover:text-white" :to="localePath('/coc')"> {{ $t('values_m') }}<span aria-hidden="true">&rarr;</span></NuxtLink>
+                    <a href="#">{{ $t('sponsors_m') }} <span aria-hidden="true">&rarr;</span></a>  
+          </div>
     </div>
 
     <div class=" flex justify-center">
-     
+            
             <!-- subtitle -->
                 <div class=" max-w-2xl lg:mx-0">
                   <h2 class="font-bold text-8xl tracking-tight text-white">
@@ -29,15 +37,8 @@
                 <!-- footer and links -->
                 <div class="mt-10 ">  
 
-                  <div class="flex flex-row gap-x-8  gap-y-6 text-xl font-normal  leading-7 text-slate-400">
-                    
-                    <NuxtLink class="hover:text-white" :to="localePath('/register')"> {{ $t('register_m') }}<span aria-hidden="true">&rarr;</span></NuxtLink>
-                    <a href="#">{{ $t('contribute_m') }} <span aria-hidden="true">&rarr;</span></a>
-                    <NuxtLink class="hover:text-white" :to="localePath('/coc')"> {{ $t('values_m') }}<span aria-hidden="true">&rarr;</span></NuxtLink>
-                    <a href="#">{{ $t('sponsors_m') }} <span aria-hidden="true">&rarr;</span></a>  
-                    
-                    <slot name="body"/>    
-                  </div>
+                  
+                  <slot name="body"  /> 
 
                   <dl class="mt-16 flex flex-row gap-8 ">
                       <slot name="footer"/>

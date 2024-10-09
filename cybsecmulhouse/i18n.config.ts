@@ -17,7 +17,7 @@ export default defineI18nConfig(() => ({
         hour_m:'hours',
         min_m:'minutes',
         sec_m:'seconds',
-
+        start_m:'Starting of the contest the 26/11/24 at 20h00 in'
       },
       fr: {
         welcome: 'Bienvenue',
@@ -34,7 +34,7 @@ export default defineI18nConfig(() => ({
         hour_m:'heures',
         min_m:'minutes',
         sec_m:'secondes',
-
+        start_m:'Début des épreuves le 26/11/24 à 20h00 dans'
       }
     }
   }))

@@ -4,9 +4,15 @@
     </template>
     <template #subtitle>
       <!-- {{ $t('subtitle_m') }} -->
+      
     </template>
     <template #body>
-     
+      <div  v-if="locale === 'en'">
+        <InfoEn />
+      </div>
+      <div  v-else>
+        <InfoFr  />
+      </div>
     </template>
     <template #footer>
       <div class="flex flex-col-reverse">
@@ -29,3 +35,15 @@
   </PageCard>
 
 </template>
+<script setup lang="ts">
+const { locale, locales } = useI18n()
+const localePath = useLocalePath()
+
+useSeoMeta({
+  title: 'The official RhineTech CTF site',
+  ogTitle: 'The official RhineTech CTF site',
+  description: 'This is the official Rhinetech CTF site for the event planned on November 26th 2024 ',
+  ogDescription: 'This is the official Rhinetech CTF site for the event planned on November 26th 2024 ',
+})
+
+</script>
