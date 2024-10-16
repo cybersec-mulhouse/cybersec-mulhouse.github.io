@@ -25,7 +25,7 @@
       </div>
       <div class="flex flex-col-reverse">
         <dt class="text-base leading-7 text-gray-300">Price money</dt>
-        <dd class="text-4xl font-bold leading-9 tracking-tight text-white">10000&euro;</dd>
+        <dd class="text-4xl font-bold leading-9 tracking-tight text-white">1500&euro;</dd>
       </div>
       <div class="flex flex-col-reverse">
         <dt class="text-base leading-7 text-gray-300">From</dt>
