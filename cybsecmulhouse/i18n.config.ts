@@ -4,7 +4,7 @@ export default defineI18nConfig(() => ({
     messages: {
       en: {
         welcome: 'Welcome',
-        subtitle_m: '',//'Come and capture the flag in a relaxed event !',
+        subtitle_m: 'The RhineTech CTF in Mulhouse is organized in partnership with and supported by HS\'R of Reims, with the goal of creating a championship in the Grand Est region.',
         register_m: 'Register',
         name_m:'Name',
         forename_m:'Forename',
@@ -21,7 +21,7 @@ export default defineI18nConfig(() => ({
       },
       fr: {
         welcome: 'Bienvenue',
-        subtitle_m: '',//'Un capture the flag dans une ambiance détendue !',
+        subtitle_m: 'Le RhineTech CTF de Mulhouse est organisé en partenariat et avec le soutien du HS’R de Reims avec l’objectif de créer un championnat sur la région Grand Est.',
         register_m: 'S\'enregistrer',
         name_m:'Nom',
         forename_m:'Prénom',

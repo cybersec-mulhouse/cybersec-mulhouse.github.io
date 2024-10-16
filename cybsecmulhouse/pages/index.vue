@@ -4,7 +4,9 @@
     </template>
     <template #subtitle>
       <!-- {{ $t('subtitle_m') }} -->
-      
+      <div>
+        {{$t('subtitle_m')}} 
+      </div>
     </template>
     <template #body>
       <div  v-if="locale === 'en'">
@@ -15,6 +17,7 @@
       </div>
     </template>
     <template #footer>
+      
       <div class="flex flex-col-reverse">
         <dt class="text-base leading-7 text-gray-300">Participants</dt>
         <dd class="text-4xl font-bold leading-9 tracking-tight text-white">80+</dd>
@@ -32,8 +35,10 @@
         <dd class="text-4xl font-bold leading-9 tracking-tight text-white">16h-09h</dd>
       </div>
     </template>
-  </PageCard>
+    
 
+  </PageCard>
+  
 </template>
 <script setup lang="ts">
 const { locale, locales } = useI18n()

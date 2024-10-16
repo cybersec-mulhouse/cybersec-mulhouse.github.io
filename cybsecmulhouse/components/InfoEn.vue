@@ -7,5 +7,6 @@
           <li>Locking of the scores the next morning at 8h00 </li> 
           <li>Podium and prices at 9h00 </li>   
         </ul>
+    <h3></h3>
     </div>
 </template>
