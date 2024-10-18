@@ -13,7 +13,7 @@
           <img src="~/assets/img/Logo_clean.png" class="mx-auto object-contain object-center w-1/4 brightness-50 hover:brightness-200 hover:duration-150 "/>
           <h3 class="text-slate-500 text-xl mt-5"> {{ $t('start_m') }}</h3>
           <CountDown/>  
-          <div class="flex justify-center mt-10 flex-row gap-x-8  gap-y-6 text-xl font-normal  leading-7 text-slate-400">
+          <div class="flex justify-center mt-10 md:flex-row  flex-col gap-x-8  gap-y-6 text-xl font-normal  leading-7 text-slate-400">
                     
                     <NuxtLink class="hover:text-white" :to="localePath('/register')"> {{ $t('register_m') }}<span aria-hidden="true">&rarr;</span></NuxtLink>
                     <NuxtLink class="hover:text-white" :to="localePath('/coc')"> {{ $t('values_m') }}<span aria-hidden="true">&rarr;</span></NuxtLink>
@@ -35,17 +35,21 @@
                 <!-- footer and links -->
                   <div class=" ">  
                     <slot name="body"  /> 
-                    <dl class="mt-20 flex flex-row gap-8 ">
+                    <dl class="mt-20 flex md:flex-row flex-col place-items-center gap-8 ">
                       <slot name="footer"/>
                     </dl>
                     
                   </div>
                   
                 </div>
-                <div class="mx-20 mt-16 flex flex-row gap-x-8 justify-center text-white text-4xl">
+                <div class="mx-20 mt-16 flex md:flex-row flex-col gap-x-20 justify-center place-items-center text-white text-4xl">
                   <a href="https://www.m2a.fr/" target="_blank" rel="noopener"><img src='~/assets/img/m2a.png' class="flex mt-5 max-w-36 aspect-auto" /></a>
-                  <a href="https://www.hacksecureims.eu/" target="_blank" rel="noopener"><img src='~/assets/img/logo_hsr2024 Small.png' class="flex max-w-36 aspect-auto"/></a>
+                  <a href="https://www.hacksecureims.eu/" target="_blank" rel="noopener"><img src='~/assets/img/Fond_noir_logo.png' class="flex max-w-36 aspect-auto"/></a>
                   <a href="https://www.systancia.com/" target="_blank" rel="noopener"><img src='~/assets/img/logo-systancia-white.png' class="flex mt-10 max-w-36 aspect-auto" /></a>
+                  <a href="https://www.univ-reims.fr/" target="_blank" rel="noopener"><img src='~/assets/img/Logo_URCA_blanc.png' class="flex mt-10 max-w-36 aspect-auto" /></a>
+                  <a href="https://www.uha.fr/" target="_blank" rel="noopener"><img src='~/assets/img/UHA_sans_fond.png' class="flex mt-10 max-w-36 aspect-auto" /></a>
+                
+                
                 </div>
      </div>
      
