@@ -36,10 +36,11 @@ import type { FormSubmitEvent } from '#ui/types'
       <template #footer>
       <div class="flex md:flex-row  flex-col text-white">
         <!-- <a href="https://discord.com/invite/PvC8bWH3mv?event=1250008749712740403"> <img src="~/assets/img/qr-code.png" alt="" class="-z-10 h-full w-72 object-cover object-right md:object-center"/></a> -->
-         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBtrPzvMBsZ1tMQzg9uvBXr2Y8GthZzNuRuKPkZLq20hmeKQ/viewform?embedded=true"  width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+        <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBtrPzvMBsZ1tMQzg9uvBXr2Y8GthZzNuRuKPkZLq20hmeKQ/viewform?embedded=true"  width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
         
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9Z3X4e2lnvwYYnwG-dp66bPdf03quO8dFTP8hBMk-yKaF-Q/viewform?embedded=true"  width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
-        </div>  
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9Z3X4e2lnvwYYnwG-dp66bPdf03quO8dFTP8hBMk-yKaF-Q/viewform?embedded=true"  width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>-->
+      <h2 class="text-2xl">{{ $t('closed_m') }}</h2>  
+      </div>  
       <!-- 1f5Kp1b1IcMfBT0X1fBmpJI4S7kKUNoK6lOoGNee26s4 -->
       
       </template>
