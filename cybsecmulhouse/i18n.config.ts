@@ -18,11 +18,11 @@ export default defineI18nConfig(() => ({
         min_m:'minutes',
         sec_m:'seconds',
         start_m:'Starting of the contest the 26/11/24 at 20h00 in',
-        closed_m:'Due to the high number of participants, registering is closed. '
+        closed_m:'Due to the high number of participants, registering is closed.'
       },
       fr: {
         welcome: 'Bienvenue',
-        subtitle_m: 'Le RhineTech CTF de Mulhouse est organisé en partenariat et avec le soutien du HS’R de Reims avec l’objectif de créer un championnat sur la région Grand Est.',
+        subtitle_m: 'Le RhineTech CTF de Mulhouse est organisé en partenariat et avec le soutien du HSR de Reims avec l\'objectif de créer un championnat sur la région Grand Est.',
         register_m: 'S\'enregistrer',
         name_m:'Nom',
         forename_m:'Prénom',
