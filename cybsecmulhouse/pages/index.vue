@@ -47,8 +47,8 @@ const localePath = useLocalePath()
 useSeoMeta({
   title: 'The official RhineTech CTF site',
   ogTitle: 'The official RhineTech CTF site',
-  description: 'This is the official Rhinetech CTF site for the event planned on November 26th 2024 ',
-  ogDescription: 'This is the official Rhinetech CTF site for the event planned on November 26th 2024 ',
+  description: 'This is the official Rhinetech CTF site for the event planned on November 26th 2025 ',
+  ogDescription: 'This is the official Rhinetech CTF site for the event planned on November 26th 2025 ',
 })
 
 </script>
