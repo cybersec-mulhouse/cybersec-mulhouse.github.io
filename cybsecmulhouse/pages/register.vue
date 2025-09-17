@@ -39,7 +39,7 @@ import type { FormSubmitEvent } from '#ui/types'
         <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeBtrPzvMBsZ1tMQzg9uvBXr2Y8GthZzNuRuKPkZLq20hmeKQ/viewform?embedded=true"  width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
         
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe9Z3X4e2lnvwYYnwG-dp66bPdf03quO8dFTP8hBMk-yKaF-Q/viewform?embedded=true"  width="640" height="800" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>-->
-      <h2 class="text-2xl">{{ $t('closed_m') }}</h2>  
+      <h2 class="text-2xl">{{ $t('registration_not_open_m') }}</h2>  
       </div>  
       <!-- 1f5Kp1b1IcMfBT0X1fBmpJI4S7kKUNoK6lOoGNee26s4 -->
       
