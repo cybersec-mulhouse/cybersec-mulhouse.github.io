@@ -17,7 +17,7 @@ export default defineI18nConfig(() => ({
         hour_m:'hours',
         min_m:'minutes',
         sec_m:'seconds',
-        start_m:'Starting of the contest the 26/11/25 at 20h00 in',
+        start_m:'Starting of the contest the 25/11/25 at 9h00 in',
         closed_m:'Due to the high number of participants, registering is closed.'
       },
       fr: {
@@ -35,7 +35,7 @@ export default defineI18nConfig(() => ({
         hour_m:'heures',
         min_m:'minutes',
         sec_m:'secondes',
-        start_m:'Début des épreuves le 26/11/25 à 20h00 dans',
+        start_m:'Début des épreuves le 25/11/25 à 9h00 dans',
         closed_m:'Les inscriptions sont closes, nous sommes complet !'
       }
     }
