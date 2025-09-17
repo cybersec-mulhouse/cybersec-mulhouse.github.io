@@ -9,12 +9,12 @@
       </div>
     </template>
     <template #body>
-      <div  v-if="locale === 'en'">
+<!--      <div  v-if="locale === 'en'">
         <InfoEn />
       </div>
       <div  v-else>
         <InfoFr  />
-      </div>
+      </div> -->
     </template>
     <template #footer>
       
