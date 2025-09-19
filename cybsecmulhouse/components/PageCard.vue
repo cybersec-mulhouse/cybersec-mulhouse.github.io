@@ -32,13 +32,13 @@
         <div class="flex justify-center mt-10 md:flex-row  flex-col gap-x-8  gap-y-6 text-xl font-normal  leading-7 text-slate-400">
           <NuxtLink
             class="hover:text-white"
-            :to="localePath('/register')"
+            :to="localePath('/RegisterPage')"
           >
             {{ $t('register_m') }}<span aria-hidden="true">&rarr;</span>
           </NuxtLink>
           <NuxtLink
             class="hover:text-white"
-            :to="localePath('/coc')"
+            :to="localePath('/CocPage')"
           >
             {{ $t('values_m') }}<span aria-hidden="true">&rarr;</span>
           </NuxtLink>
@@ -110,7 +110,7 @@
   </div>
 </template>
  <script setup>
-const { locale, setLocale } = useI18n()
+const { setLocale } = useI18n()
 const localePath = useLocalePath()
 
 </script>

@@ -52,9 +52,6 @@
   </PageCard>
 </template>
 <script setup lang="ts">
-const { locale, locales } = useI18n()
-const localePath = useLocalePath()
-
 useSeoMeta({
   title: 'The official RhineTech CTF site',
   ogTitle: 'The official RhineTech CTF site',

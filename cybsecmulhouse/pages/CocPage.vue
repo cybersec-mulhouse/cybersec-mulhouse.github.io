@@ -1,6 +1,4 @@
 <script setup lang="ts">
-const { locale, locales } = useI18n()
-console.log("locale",locale)
 
 </script>
 

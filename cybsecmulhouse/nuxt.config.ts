@@ -10,7 +10,7 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxt/ui", "@nuxtjs/i18n", "@nuxt/image"],
+  modules: ["@nuxt/ui", "@nuxtjs/i18n", "@nuxt/image",   '@nuxt/eslint'],
   i18n: {
     locales:['en','fr'],
     defaultLocale: 'fr',
