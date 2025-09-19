@@ -1,44 +1,25 @@
 <script setup lang="ts">
-import { object, string, type InferType } from 'yup'
-import type { FormSubmitEvent } from '#ui/types'
-
-// const schema = object({
-//   email: string().email('Invalid email').required('Required'),
-//   lastname:string().required('Required'),
-//   forename:string().required('Required'),
-//   uni:string().required('Required'), 
-//   challenge:string().test('is-correct',(d)=>`${d.path} is not correct`,(value) => value == null || value === '6ebe').required('Required') 
-
-// })
-
-// type Schema = InferType<typeof schema>
-
-// const state = reactive({
-//   email: undefined
-// })
-
-// async function onSubmit (event: FormSubmitEvent<Schema>) {
-//   // Do something with event.data
-//   console.log(event.data)
-  
-// }
 </script>
 <template>
-    <PageCard>
-      <template #title>
-        
-      </template>
-      <template #subtitle>
-        {{ $t('subtitle_m') }}
-      </template>
-      <template #body>
-      </template>
-      <template #footer>
+  <PageCard>
+    <template #title />
+    <template #subtitle>
+      {{ $t('subtitle_m') }}
+    </template>
+    <template #body />
+    <template #footer>
       <div class="flex md:flex-row  flex-col text-white">
-<!--        <a href="https://discord.com/invite/PvC8bWH3mv?event=1250008749712740403"> <img src="~/assets/img/qr-code.png" alt="" class="-z-10 h-full w-72 object-cover object-right md:object-center"/></a> -->
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf_ZYgXj2_Y_zHcYV8tQHBojRJIcwZrj084Tf6MpH7S95xiIA/viewform?embedded=true"  width="720" height="1000" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+        <!--        <a href="https://discord.com/invite/PvC8bWH3mv?event=1250008749712740403"> <img src="~/assets/img/qr-code.png" alt="" class="-z-10 h-full w-72 object-cover object-right md:object-center"/></a> -->
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSf_ZYgXj2_Y_zHcYV8tQHBojRJIcwZrj084Tf6MpH7S95xiIA/viewform?embedded=true"
+          width="720"
+          height="1000"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+        >Chargement…</iframe>
       </div>  
       <!-- 1f5Kp1b1IcMfBT0X1fBmpJI4S7kKUNoK6lOoGNee26s4 -->
-      </template>
-    </PageCard>
-  </template>
+    </template>
+  </PageCard>
+</template>

@@ -1,15 +1,14 @@
 <template>
   <PageCard>
-    <template #title>
-    </template>
+    <template #title />
     <template #subtitle>
       <!-- {{ $t('subtitle_m') }} -->
       <div>
-        {{$t('subtitle_m')}} 
+        {{ $t('subtitle_m') }} 
       </div>
     </template>
     <template #body>
-<!--      <div  v-if="locale === 'en'">
+      <!--      <div  v-if="locale === 'en'">
         <InfoEn />
       </div>
       <div  v-else>
@@ -17,28 +16,40 @@
       </div> -->
     </template>
     <template #footer>
-      
       <div class="flex flex-col-reverse">
-        <dt class="text-base leading-7 text-gray-300">Participants</dt>
-        <dd class="text-4xl font-bold leading-9 tracking-tight text-white">80+</dd>
+        <dt class="text-base leading-7 text-gray-300">
+          Participants
+        </dt>
+        <dd class="text-4xl font-bold leading-9 tracking-tight text-white">
+          80+
+        </dd>
       </div>
       <div class="flex flex-col-reverse">
-        <dt class="text-base leading-7 text-gray-300">Surface</dt>
-        <dd class="text-4xl font-bold leading-9 tracking-tight text-white">2000m<sup>2</sup></dd>
+        <dt class="text-base leading-7 text-gray-300">
+          Surface
+        </dt>
+        <dd class="text-4xl font-bold leading-9 tracking-tight text-white">
+          2000m<sup>2</sup>
+        </dd>
       </div>
       <div class="flex flex-col-reverse">
-        <dt class="text-base leading-7 text-gray-300">Price money</dt>
-        <dd class="text-4xl font-bold leading-9 tracking-tight text-white">1500&euro;</dd>
+        <dt class="text-base leading-7 text-gray-300">
+          Price money
+        </dt>
+        <dd class="text-4xl font-bold leading-9 tracking-tight text-white">
+          1500&euro;
+        </dd>
       </div>
       <div class="flex flex-col-reverse">
-        <dt class="text-base leading-7 text-gray-300">From</dt>
-        <dd class="text-4xl font-bold leading-9 tracking-tight text-white">16h-09h</dd>
+        <dt class="text-base leading-7 text-gray-300">
+          From
+        </dt>
+        <dd class="text-4xl font-bold leading-9 tracking-tight text-white">
+          16h-09h
+        </dd>
       </div>
     </template>
-    
-
   </PageCard>
-  
 </template>
 <script setup lang="ts">
 const { locale, locales } = useI18n()
