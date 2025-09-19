@@ -10,7 +10,9 @@
       <button @click="setLocale('en')">en</button>
     </div>
     <div class="w-full text-8xl  text-center text-white">
-          <img src="~/assets/img/Logo_clean.png" class="mx-auto object-contain object-center w-1/4 brightness-50 hover:brightness-200 hover:duration-150 "/>
+      <NuxtLink class="hover:text-white" :to="localePath('/')">
+        <img src="~/assets/img/Logo_clean.png" class="mx-auto object-contain object-center w-1/4 brightness-50 hover:brightness-200 hover:duration-150" />
+      </NuxtLink>
           <h3 class="text-slate-500 text-xl mt-5"> {{ $t('start_m') }}</h3>
           <CountDown/>  
           <div class="flex justify-center mt-10 md:flex-row  flex-col gap-x-8  gap-y-6 text-xl font-normal  leading-7 text-slate-400">
