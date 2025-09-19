@@ -6,7 +6,7 @@
         alt=""
         class="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
       >
-    
+
       <div class="absolute top-10 right-10 h-16 w-16 text-white ...">
         <button @click="setLocale('fr')">
           fr
@@ -28,7 +28,7 @@
         <h3 class="text-slate-500 text-xl mt-5">
           {{ $t('start_m') }}
         </h3>
-        <CountDown />  
+        <CountDown />
         <div class="flex justify-center mt-10 md:flex-row  flex-col gap-x-8  gap-y-6 text-xl font-normal  leading-7 text-slate-400">
           <NuxtLink
             class="hover:text-white"
@@ -45,7 +45,7 @@
         </div>
       </div>
 
-      <div class=" flex flex-col place-items-center	 justify-center">
+      <div class=" flex flex-col place-items-center justify-center">
         <!-- subtitle -->
         <div class=" max-w-2xl lg:mx-0">
           <h2 class="font-bold text-8xl tracking-tight text-white">
@@ -57,8 +57,8 @@
         </div>
 
         <!-- footer and links -->
-        <div class=" ">  
-          <slot name="body" /> 
+        <div class=" ">
+          <slot name="body" />
           <dl class="mt-20 flex md:flex-row flex-col place-items-center gap-8 ">
             <slot name="footer" />
           </dl>
@@ -109,8 +109,8 @@
     </div>
   </div>
 </template>
- <script setup>
+
+<script setup>
 const { setLocale } = useI18n()
 const localePath = useLocalePath()
-
 </script>

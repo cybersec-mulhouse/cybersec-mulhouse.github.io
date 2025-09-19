@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+
+  modules: ['@nuxt/ui', '@nuxtjs/i18n', '@nuxt/image', '@nuxt/eslint'],
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   experimental: { appManifest: false },
@@ -9,12 +11,15 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-
-  modules: ["@nuxt/ui", "@nuxtjs/i18n", "@nuxt/image",   '@nuxt/eslint'],
+  eslint: {
+    config: {
+      stylistic: true,
+    },
+  },
   i18n: {
-    locales:['en','fr'],
+    locales: ['en', 'fr'],
     defaultLocale: 'fr',
     vueI18n: './i18n.config.ts', // if you are using custom path, default
-    vueI18nLoader: true
-  }
+    vueI18nLoader: true,
+  },
 })

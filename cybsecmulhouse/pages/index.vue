@@ -4,7 +4,7 @@
     <template #subtitle>
       <!-- {{ $t('subtitle_m') }} -->
       <div>
-        {{ $t('subtitle_m') }} 
+        {{ $t('subtitle_m') }}
       </div>
     </template>
     <template #body>
@@ -51,6 +51,7 @@
     </template>
   </PageCard>
 </template>
+
 <script setup lang="ts">
 useSeoMeta({
   title: 'The official RhineTech CTF site',
@@ -58,5 +59,4 @@ useSeoMeta({
   description: 'This is the official Rhinetech CTF site for the event planned on November 25th 2025 ',
   ogDescription: 'This is the official Rhinetech CTF site for the event planned on November 25th 2025 ',
 })
-
 </script>

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 </script>
+
 <template>
   <PageCard>
     <template #title />
@@ -18,7 +19,7 @@
           marginheight="0"
           marginwidth="0"
         >Chargement…</iframe>
-      </div>  
+      </div>
       <!-- 1f5Kp1b1IcMfBT0X1fBmpJI4S7kKUNoK6lOoGNee26s4 -->
     </template>
   </PageCard>

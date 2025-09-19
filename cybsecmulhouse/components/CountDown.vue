@@ -9,15 +9,14 @@
       :time="Date.parse('25 Nov 2025 8:00:00 GMT')-(new Date())"
       :interval="100"
     >
-      {{ days }} {{ $t('day_m') }} 
+      {{ days }} {{ $t('day_m') }}
       {{ hours }} {{ $t('hour_m') }}
       {{ minutes }} {{ $t('min_m') }}
       {{ seconds }} {{ $t('sec_m') }}
     </vue-countdown>
   </client-only>
 </template>
-  
-  <script setup lang="ts">
-    import VueCountdown from '@chenfengyuan/vue-countdown';
-    
- </script>
+
+<script setup lang="ts">
+import VueCountdown from '@chenfengyuan/vue-countdown'
+</script>
