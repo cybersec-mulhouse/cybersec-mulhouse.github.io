@@ -8,12 +8,12 @@
       </div>
     </template>
     <template #body>
-      <!--      <div  v-if="locale === 'en'">
+      <div v-if="locale === 'en'">
         <InfoEn />
       </div>
-      <div  v-else>
-        <InfoFr  />
-      </div> -->
+      <div v-else>
+        <InfoFr />
+      </div>
     </template>
     <template #footer>
       <div class="flex flex-col-reverse">
@@ -45,7 +45,7 @@
           From
         </dt>
         <dd class="text-4xl font-bold leading-9 tracking-tight text-white">
-          16h-09h
+          09h-20h
         </dd>
       </div>
     </template>
@@ -53,10 +53,11 @@
 </template>
 
 <script setup lang="ts">
-useSeoMeta({
-  title: 'The official RhineTech CTF site',
-  ogTitle: 'The official RhineTech CTF site',
-  description: 'This is the official Rhinetech CTF site for the event planned on November 25th 2025 ',
-  ogDescription: 'This is the official Rhinetech CTF site for the event planned on November 25th 2025 ',
-})
+  const { t, locale } = useI18n();
+  useSeoMeta({
+      title: 'The official RhineTech CTF site',
+      ogTitle: 'The official RhineTech CTF site',
+      description: 'This is the official Rhinetech CTF site for the event planned on November 25th 2025 ',
+      ogDescription: 'This is the official Rhinetech CTF site for the event planned on November 25th 2025 ',
+  })
 </script>
