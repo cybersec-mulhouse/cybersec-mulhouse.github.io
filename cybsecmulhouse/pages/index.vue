@@ -53,11 +53,11 @@
 </template>
 
 <script setup lang="ts">
-  const { t, locale } = useI18n();
-  useSeoMeta({
-      title: 'The official RhineTech CTF site',
-      ogTitle: 'The official RhineTech CTF site',
-      description: 'This is the official Rhinetech CTF site for the event planned on November 25th 2025 ',
-      ogDescription: 'This is the official Rhinetech CTF site for the event planned on November 25th 2025 ',
-  })
+const { locale } = useI18n()
+useSeoMeta({
+  title: 'The official RhineTech CTF site',
+  ogTitle: 'The official RhineTech CTF site',
+  description: 'This is the official Rhinetech CTF site for the event planned on November 25th 2025 ',
+  ogDescription: 'This is the official Rhinetech CTF site for the event planned on November 25th 2025 ',
+})
 </script>
