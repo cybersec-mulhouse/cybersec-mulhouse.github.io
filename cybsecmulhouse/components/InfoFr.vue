@@ -4,8 +4,8 @@
       <!--      <li>Présentation de l'événement à 16h00</li> -->
       <li>Réception & accueil des équipes à 9h00</li>
       <li>Début du CTF à 10h00</li>
-      <li>Clôture des scores à 18h00</li>
-      <li>Podium et prix à 19h00</li>
+      <li>Clôture des scores à 17h00</li>
+      <li>Podium et prix à 18h00</li>
     </ul>
   </div>
 </template>
