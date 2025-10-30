@@ -5,7 +5,7 @@ export default defineI18nConfig(() => ({
     en: {
       welcome: 'Welcome',
       subtitle_m: 'The RhineTech CTF of Mulhouse is organized in partnership and with the support of HSR of Reims with the aim of creating a championship in the Grand Est region.',
-      place: 'It will be hosted during the BE 5.0 event at Parc Expo Mulhouse, 120 rue Lefebvre, 68100 Mulhouse',
+      place: 'It will be hosted during the BE 5.0 event at Parc Expo Mulhouse, 120 rue Lefebvre, 68100 Mulhouse.',
       register_m: 'Register',
       name_m: 'Name',
       forename_m: 'First Name',
@@ -25,7 +25,7 @@ export default defineI18nConfig(() => ({
     fr: {
       welcome: 'Bienvenue',
       subtitle_m: 'Le RhineTech CTF de Mulhouse est organisé en partenariat et avec le soutien du HSR de Reims avec l\'objectif de créer un championnat sur la région Grand Est.',
-      place: "Il aura eu durant le salon BE 5.0 au Parc Expo Mulhouse, 120 rue Lefebvre, 68100 Mulhouse",
+      place: "Il aura eu durant le salon BE 5.0 au Parc Expo Mulhouse, 120 rue Lefebvre, 68100 Mulhouse.",
       register_m: 'S\'enregistrer',
       name_m: 'Nom',
       forename_m: 'Prénom',
