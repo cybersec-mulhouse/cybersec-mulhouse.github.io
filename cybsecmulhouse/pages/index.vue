@@ -26,7 +26,7 @@
           Participants
         </dt>
         <dd class="text-4xl font-bold leading-9 tracking-tight text-white">
-          80+
+          100+
         </dd>
       </div>
       <div class="flex flex-col-reverse">
