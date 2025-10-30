@@ -4,7 +4,12 @@
     <template #subtitle>
       <!-- {{ $t('subtitle_m') }} -->
       <div>
-        {{ $t('subtitle_m') }}
+        <p>
+          {{ $t('subtitle_m') }}
+        </p>
+        <p>
+          {{ $t('place') }}
+        </p>
       </div>
     </template>
     <template #body>
