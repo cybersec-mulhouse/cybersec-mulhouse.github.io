@@ -25,7 +25,7 @@ export default defineI18nConfig(() => ({
     fr: {
       welcome: 'Bienvenue',
       subtitle_m: 'Le RhineTech CTF de Mulhouse est organisé en partenariat et avec le soutien du HSR de Reims avec l\'objectif de créer un championnat sur la région Grand Est.',
-      place: "Il aura eu durant le salon BE 5.0 au Parc Expo Mulhouse, 120 rue Lefebvre, 68100 Mulhouse.",
+      place: "Il aura lieu durant le salon BE 5.0 au Parc Expo Mulhouse, 120 rue Lefebvre, 68100 Mulhouse.",
       register_m: 'S\'enregistrer',
       name_m: 'Nom',
       forename_m: 'Prénom',
