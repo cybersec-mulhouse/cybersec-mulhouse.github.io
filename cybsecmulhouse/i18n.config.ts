@@ -21,6 +21,7 @@ export default defineI18nConfig(() => ({
       start_m: 'Competition starts on 11/25/25 at 9:00 AM in',
       closed_m: 'Registration is closed, we are full!',
       registration_not_open_m: 'Registration is not yet open.',
+      registration_closed_m: 'Registration is now closed. We hope to see you next year! Follow up on LinkedIn.',
     },
     fr: {
       welcome: 'Bienvenue',
@@ -41,6 +42,7 @@ export default defineI18nConfig(() => ({
       start_m: 'Début des épreuves le 25/11/25 à 9h00 dans',
       closed_m: 'Les inscriptions sont closes, nous sommes complet !',
       registration_not_open_m: 'Les inscriptions ne sont pas encore ouvertes.',
+      registration_closed_m: 'Les inscriptions sont closes. Nous espérons vous voir l\'année prochaine. Suivez-nous sur LinkedIn.',
     },
   },
 }))
