@@ -7,7 +7,7 @@
       <li>Team Reception & Welcome at 9:00 AM</li>
       <li>CTF Start at 10:00 AM</li>
       <li>Score Closing at 5:00 PM</li>
-      <li>Awards Ceremony & Prizes at 6:00 PM</li>
+      <li>Awards Ceremony & Prizes at 5:30 PM</li>
     </ul>
   </div>
 </template>
