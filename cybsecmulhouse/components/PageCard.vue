@@ -97,6 +97,9 @@
           src="~/assets/img/Logo_URCA_blanc.png"
           class="flex mt-10 max-w-36 aspect-auto"
         ></a>
+      </div>
+      <div class="mx-20 mt-16 flex md:flex-row flex-col gap-x-20 justify-center place-items-center text-white text-4xl">
+
         <a
           href="https://www.uha.fr/"
           target="_blank"
@@ -105,6 +108,46 @@
           src="~/assets/img/UHA_sans_fond.png"
           class="flex mt-10 max-w-36 aspect-auto"
         ></a>
+        <a
+          href="https://www.adobe.com/"
+          target="_blank"
+          rel="noopener"
+        ><img
+          src="~/assets/img/logo-adobe.png"
+          class="flex mt-5 max-w-36 aspect-auto"
+        ></a>
+        <a
+          href="https://www.eiffageenergiesystemes.com/"
+          target="_blank"
+          rel="noopener"
+        ><img
+          src="~/assets/img/logo-eiffage_energie_systemes.svg"
+          class="flex mt-5 max-w-36 aspect-auto"
+           ></a>
+        <a
+          href="https://www.ace-si.com/"
+          target="_blank"
+          rel="noopener"
+        ><img
+          src="~/assets/img/logo-acesi.png"
+          class="flex mt-5 max-w-36 aspect-auto"
+           ></a>
+        <a
+          href="https://www.ensisa.uha.fr/"
+          target="_blank"
+          rel="noopener"
+          ><img
+             src="~/assets/img/logo-ensisa.svg"
+             class="flex mt-5 max-w-36 aspect-auto"
+             ></a>
+        <a
+          href="https://www.iutcolmar.uha.fr/"
+          target="_blank"
+          rel="noopener"
+          ><img
+             src="~/assets/img/logo-iut-colmar.jpg"
+             class="flex mt-5 max-w-36 aspect-auto"
+             ></a>
       </div>
     </div>
   </div>
